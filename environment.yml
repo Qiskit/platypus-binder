@@ -1,0 +1,21 @@
+name: base
+channels:
+- conda-forge
+dependencies:
+- python==3.8.*
+- pip==20.*
+- cython
+- numpy
+- matplotlib-base
+- qutip
+- sympy
+- pylatexenc
+- numexpr
+- pip:
+  - pandas
+  - qiskit
+  - ./qiskit-textbook-src
+  - qiskit-machine-learning
+  - 'qiskit-machine-learning[sparse]'
+  - tensorflow
+  - ibm_quantum_widgets
