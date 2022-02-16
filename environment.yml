@@ -4,6 +4,7 @@ channels:
 dependencies:
 - python==3.8.*
 - pip==20.*
+- git>=2.35.0
 - cython
 - numpy
 - matplotlib-base
@@ -19,3 +20,4 @@ dependencies:
   - 'qiskit-machine-learning[sparse]'
   - tensorflow
   - ibm_quantum_widgets
+  - git+https://github.com/qiskit-community/Quantum-Challenge-Grader.git@va-refactor
