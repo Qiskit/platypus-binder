@@ -1,4 +1,4 @@
-name: base
+name: platypus-binder
 channels:
 - conda-forge
 dependencies:
