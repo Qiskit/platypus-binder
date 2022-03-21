@@ -20,4 +20,4 @@ dependencies:
   - 'qiskit-machine-learning[sparse]'
   - tensorflow
   - ibm_quantum_widgets
-  - git+https://github.com/qiskit-community/Quantum-Challenge-Grader.git@03c0f1c
+  - git+https://github.com/qiskit-community/Quantum-Challenge-Grader.git@e1d0c6c
