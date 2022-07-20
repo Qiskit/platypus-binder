@@ -2,4 +2,5 @@
 
 QE_CUSTOM_CLIENT_APP_HEADER=learn.qiskit.org
 
+# required by binder to be the last line
 exec "$@"
