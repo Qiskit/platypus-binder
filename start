@@ -1,3 +1,5 @@
 #!/bin/bash
 
 QE_CUSTOM_CLIENT_APP_HEADER=learn.qiskit.org
+
+exec "$@"
