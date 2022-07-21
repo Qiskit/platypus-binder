@@ -1,0 +1,6 @@
+#!/bin/bash
+
+export QE_CUSTOM_CLIENT_APP_HEADER=learn.qiskit.org
+
+# must be the last line
+exec "$@"
