@@ -14,12 +14,7 @@ dependencies:
 - numexpr
 - pip:
   - pandas
-  - qiskit==0.37
-  - qiskit==0.37
-  - qiskit-nature==0.4.1
-  - qiskit-machine-learning==0.4.0
-  - qiskit-finance==0.3.2
-  - qiskit-ignis==0.7.0
+  - qiskit[all]~=0.37.0
   - ./qiskit-textbook-src
   - 'qiskit-machine-learning[sparse]'
   - ibm_quantum_widgets
