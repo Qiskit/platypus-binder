@@ -1,6 +1,10 @@
 #!/bin/bash
 
+# custom header for requests
 export QE_CUSTOM_CLIENT_APP_HEADER=learn.qiskit.org
+
+# grader config
+export QC_GRADE_ONLY=true
 
 # must be the last line
 exec "$@"
