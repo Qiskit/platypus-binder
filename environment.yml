@@ -14,6 +14,7 @@ dependencies:
 - numexpr
 - pip:
   - pandas
+  - torchvision
   - qiskit[all]~=0.37.0
   - ./qiskit-textbook-src
   - 'qiskit-machine-learning[sparse]'
