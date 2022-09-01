@@ -6,5 +6,8 @@ export QE_CUSTOM_CLIENT_APP_HEADER=learn.qiskit.org
 # grader config
 export QC_GRADE_ONLY=true
 
+# ignore tensorflow info messages
+export TF_CPP_MIN_LOG_LEVEL=1
+
 # must be the last line
 exec "$@"
