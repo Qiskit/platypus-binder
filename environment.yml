@@ -22,3 +22,5 @@ dependencies:
   - tensorflow==2.9.1
   - pyscf==2.0.1
   - git+https://github.com/qiskit-community/Quantum-Challenge-Grader.git@main
+  - git+https://github.com/anedumla/quantum_linear_solvers
+  - git+https://github.com/NCCR-SPIN/topological_codes.git
