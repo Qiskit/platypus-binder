@@ -22,6 +22,7 @@ dependencies:
   - ibm_quantum_widgets
   - tensorflow==2.9.3
   - pyscf==2.0.1
+  - bokeh==3.0.2
   - git+https://github.com/qiskit-community/Quantum-Challenge-Grader.git@main
   - git+https://github.com/anedumla/quantum_linear_solvers
   - git+https://github.com/NCCR-SPIN/topological_codes.git
