@@ -15,7 +15,7 @@ dependencies:
 - pip:
   - pandas
   - torchvision
-  - ipywidgets==7
+  - ipywidgets>=7.3.0,<8.0
   - qiskit[all]~=0.39.0
   - qiskit-ibm-runtime~=0.7.0
   - ./qiskit-textbook-src
