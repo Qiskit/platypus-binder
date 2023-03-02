@@ -13,27 +13,17 @@ dependencies:
 - pylatexenc
 - numexpr
 - pip:
-  - 'qiskit-machine-learning[sparse]'
-  - ./qiskit-textbook-src
-  - bokeh==3.0.2
-  - cmake==3.24.1
-  - git+https://github.com/NCCR-SPIN/topological_codes.git
-  - git+https://github.com/anedumla/quantum_linear_solvers
-  - git+https://github.com/qiskit-community/Quantum-Challenge-Grader.git@main
-  - ibm_quantum_widgets
-  - ipywidgets>=7.3.0,<8.0
-  - matplotlib==3.5.2
   - pandas
-  - pylatexenc==2.10
-  - pyscf==2.0.1
-  - qiskit-aer==0.11.2
-  - qiskit-experiments==0.4.0
-  - qiskit-finance==0.3.2
-  - qiskit-ibm-runtime~=0.8.0
-  - qiskit-machine-learning==0.4.0
-  - qiskit-nature==0.4.1
-  - qiskit-terra==0.23.2
-  - scikit-learn==1.0.1
-  - tensorflow==2.9.3
   - torchvision
-  - tweedledum==1.1.1
+  - ipywidgets>=7.3.0,<8.0
+  - qiskit[all]~=0.39.0
+  - qiskit-ibm-runtime~=0.8.0
+  - ./qiskit-textbook-src
+  - 'qiskit-machine-learning[sparse]'
+  - ibm_quantum_widgets
+  - tensorflow==2.9.3
+  - pyscf==2.0.1
+  - bokeh==3.0.2
+  - git+https://github.com/qiskit-community/Quantum-Challenge-Grader.git@main
+  - git+https://github.com/anedumla/quantum_linear_solvers
+  - git+https://github.com/NCCR-SPIN/topological_codes.git
