@@ -16,8 +16,14 @@ dependencies:
   - pandas
   - torchvision
   - ipywidgets>=7.3.0,<8.0
-  - qiskit[all]~=0.39.0
-  - qiskit-ibm-runtime~=0.8.0
+  - qiskit==0.41.1
+  - qiskit-ibm-runtime~=0.9.1
+  - qiskit-nature==0.4.1
+  - qiskit-machine-learning==0.4.0
+  - qiskit-finance==0.3.2
+  - qiskit-machine-learning[sparse]
+  - qiskit-experiments==0.4.0
+  - tweedledum==1.1.1
   - ./qiskit-textbook-src
   - 'qiskit-machine-learning[sparse]'
   - ibm_quantum_widgets
