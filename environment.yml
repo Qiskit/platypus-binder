@@ -26,7 +26,7 @@ dependencies:
   - tweedledum==1.1.1
   - ./qiskit-textbook-src
   - 'qiskit-machine-learning[sparse]'
-  - ibm_quantum_widgets
+  # - ibm_quantum_widgets
   - tensorflow==2.9.3
   - pyscf==2.0.1
   - bokeh==3.0.2
