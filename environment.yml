@@ -31,6 +31,8 @@ dependencies:
   - pyscf==2.0.1
   - galois~=0.3
   - bokeh==3.0.2
+  - seaborn==0.12.1
+  - seaborn-base==0.12.1
   - git+https://github.com/qiskit-community/Quantum-Challenge-Grader.git@main
   - git+https://github.com/anedumla/quantum_linear_solvers
   - git+https://github.com/NCCR-SPIN/topological_codes.git
