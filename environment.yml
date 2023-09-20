@@ -21,12 +21,11 @@ dependencies:
   - qiskit-nature==0.6.0
   - qiskit-machine-learning==0.4.0
   - qiskit-finance==0.3.2
-  - qiskit-machine-learning[sparse]
   - qiskit-experiments==0.4.0
+  - qiskit_ibm_provider==0.5.2
   - tweedledum==1.1.1
   - ./qiskit-textbook-src
   - 'qiskit-machine-learning[sparse]'
-  # - ibm_quantum_widgets
   - tensorflow==2.9.3
   - pyscf==2.0.1
   - galois~=0.3
