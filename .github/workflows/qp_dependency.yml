@@ -1,0 +1,25 @@
+name: Build Notebook Container
+on: workflow_dispatch
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+
+    - name: Checkout repo
+      uses: actions/checkout@v4
+
+    - name: Checkout qp dependencies
+      uses: actions/checkout@v4
+      with:
+        repository: Qiskit-Extensions/quadratic-programs
+        token: ${{ secrets.GH_PAT }} # `GH_PAT` is a secret that contains your PAT
+        path: qp-main
+
+    - name: update jupyter dependencies with repo2docker
+      uses: jupyterhub/repo2docker-action@master
+      with:
+        DOCKER_USERNAME: iamapikey
+        DOCKER_PASSWORD: ${{ secrets.ibmcloud_api_key }}
+        DOCKER_REGISTRY: icr.io
+        APPENDIX_FILE: appendixFile
+        IMAGE_NAME: icr.io/community-digital/learning-binder
