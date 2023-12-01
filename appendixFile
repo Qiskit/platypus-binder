@@ -1,3 +1,0 @@
-RUN cd qp-main \
-  && pip install . \
-  && cd ..
