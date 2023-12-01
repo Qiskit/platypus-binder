@@ -32,6 +32,7 @@ dependencies:
   - galois~=0.3
   - bokeh==3.0.2
   - seaborn==0.12.1
+  - quadratic_programs
   - git+https://github.com/qiskit-community/Quantum-Challenge-Grader.git@main
   - git+https://github.com/anedumla/quantum_linear_solvers
   - git+https://github.com/NCCR-SPIN/topological_codes.git
