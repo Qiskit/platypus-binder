@@ -2,8 +2,8 @@ name: platypus-binder
 channels:
 - conda-forge
 dependencies:
-- python==3.8.*
-- pip==20.*
+- python==3.10.*
+- pip==22.*
 - git>=2.35.0
 - cython
 - numpy
@@ -14,23 +14,15 @@ dependencies:
 - numexpr
 - pip:
   - pandas
-  - torchvision
-  - ipywidgets>=7.3.0,<8.0
-  - qiskit==0.41.1
-  - qiskit-ibm-runtime==0.9.3
-  - qiskit-nature==0.6.0
-  - qiskit-machine-learning==0.4.0
-  - qiskit-finance==0.3.2
-  - qiskit-experiments==0.4.0
-  - qiskit_ibm_provider==0.5.2
-  - tweedledum==1.1.1
-  - ./qiskit-textbook-src
-  - 'qiskit-machine-learning[sparse]'
-  - tensorflow==2.9.3
-  - pyscf==2.0.1
-  - galois~=0.3
+  - ipywidgets>=8.0,<8.2
+  - qiskit[visualization]==1.0.0
+  - qiskit-ibm-runtime==0.19.1
+  - qiskit-ibm-provider==0.9.0
+  - qiskit-aer==0.13.3
+  - quantum_serverless==0.9.0
   - bokeh==3.0.2
-  - seaborn==0.12.1
+  - seaborn==0.13.2
+  - prototype-zne==1.3.1
   - git+https://github.com/qiskit-community/Quantum-Challenge-Grader.git@main
-  - git+https://github.com/anedumla/quantum_linear_solvers
-  - git+https://github.com/NCCR-SPIN/topological_codes.git
+  - quadratic_programs
+  - circuit-knitting-toolbox
